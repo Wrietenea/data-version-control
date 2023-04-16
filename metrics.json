@@ -1,6 +1,6 @@
 {
-    "epoch_time_avg": 33.31509776115418,
-    "epoch_time_pure_avg": 31.48792233467102,
-    "train_time": 666.3019552230835,
-    "train_time_pure": 629.7584466934204
+    "epoch_time_avg": 6.719256925582886,
+    "epoch_time_pure_avg": 0.4890546441078186,
+    "train_time": 134.38513851165771,
+    "train_time_pure": 9.781092882156372
 }

@@ -8,8 +8,8 @@ stages:
       size: 27229047
       nfiles: 245
     - path: src/train.py
-      md5: a3acbd90f1b1c401f70dc0cb96d3b9e8
-      size: 3653
+      md5: c20c6f93e6f8872f9e3d4a60c11be0d6
+      size: 3654
     params:
       params.yaml:
         base:
@@ -21,11 +21,11 @@ stages:
           learning_rate: 0.001
     outs:
     - path: metrics.json
-      md5: 7be40ac1bff06d9c92ed6c9365a9f3db
-      size: 173
+      md5: 8223670be3b1132b0201d0f90bc3c0f3
+      size: 175
     - path: model/model.pkl
-      md5: 824a085ccba62eb0d117fd1e10c084a0
-      size: 44796238
+      md5: ac2a8b19929a3a2f18d2bd12f2c339b9
+      size: 44796604
   evaluate:
     cmd: python src/evaluate.py
     deps:
@@ -34,11 +34,11 @@ stages:
       size: 20156877
       nfiles: 153
     - path: model/model.pkl
-      md5: 824a085ccba62eb0d117fd1e10c084a0
-      size: 44796238
+      md5: ac2a8b19929a3a2f18d2bd12f2c339b9
+      size: 44796604
     - path: src/evaluate.py
-      md5: 0008d81ae1afdf9bc2fbfb630b57e592
-      size: 3356
+      md5: c0e6b7d7e83358cf59bc9b0565a02529
+      size: 3357
     params:
       params.yaml:
         base:
@@ -48,5 +48,5 @@ stages:
           batch_size: 8
     outs:
     - path: metrics_eval.json
-      md5: d114e68329846f3c1e5c1e55a2f85f38
-      size: 127
+      md5: 8cdd41d7a19e33d2f536c88ed7fcf62d
+      size: 126
