@@ -37,8 +37,8 @@ stages:
       md5: 824a085ccba62eb0d117fd1e10c084a0
       size: 44796238
     - path: src/evaluate.py
-      md5: 197cfa3c18ec92c3427385acba1b1926
-      size: 3355
+      md5: 0008d81ae1afdf9bc2fbfb630b57e592
+      size: 3356
     params:
       params.yaml:
         base:
@@ -48,5 +48,5 @@ stages:
           batch_size: 8
     outs:
     - path: metrics_eval.json
-      md5: 28c0ac4096522ddf87c1fa1dc7bdcb65
+      md5: d114e68329846f3c1e5c1e55a2f85f38
       size: 127

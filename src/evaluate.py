@@ -15,7 +15,7 @@ from torchvision import transforms
 from torch.utils.data.sampler import SubsetRandomSampler
 import onnxruntime
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = 'cpu'
 
 def main(repo_path):
